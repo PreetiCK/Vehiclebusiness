@@ -5,7 +5,7 @@
 	<groupId>com.mindtree.vehiclebusiness.entity</groupId>
 	<artifactId>VehicleBusiness</artifactId>
 	<packaging>war</packaging>
-	<version>2.1.4</version>
+	<version>3.0</version>
 	<name>${project.artifactId}</name>
 	<properties>
 		<org.springframework.version>3.2.1.RELEASE</org.springframework.version>
@@ -269,7 +269,7 @@
 							</images>
 						</configuration>
 					</execution>
-					<!--  <execution>
+					  <execution>
 						<id>tag</id>
 						<goals>
 							<goal>tag-images</goal>
@@ -279,13 +279,13 @@
 								<image>
 									<id>${project.artifactId}</id>
 									<tags>
-										<tag>preetick/presenatation:latest</tag>
+										<tag>preetick/business:latest</tag>
 									</tags>
 									<push>true</push>
 								</image>
 							</images>
 						</configuration>
-					</execution> -->
+					</execution> 
 					
 					<execution>
 						<id>push</id>
